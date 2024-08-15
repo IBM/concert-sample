@@ -12,7 +12,6 @@
 # specific language governing permissions and limitations under the License.
 ##########################################################################
 
-
 scriptdir=`dirname $0`
 
 scriptdir=`pwd`
@@ -32,7 +31,3 @@ else
     exit -1
 fi
 ${dockerexe} pull ${CONCERT_TOOLKIT_IMAGE}
-
-
-
-
