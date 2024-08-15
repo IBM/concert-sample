@@ -20,8 +20,7 @@ This example simulates a CI/CD pipeline and its integration with Concert. It emu
 
 * `CONCERT_URL` - Your Concert URL
 * `INSTANCE_ID` - For non-SaaS deployments of Concert, use `0000-0000-0000-0000`
-* `USER_NAME` - Your Concert username (e.g., `cpadmin`)
-* `PASSWORD` - Your Concert password
+* `API_KEY` - Your Concert API_KEY, update the field with either C_API_KEY <apikey> or ZenApiKey <apikey> depending on your target environment.  The instructions to generate an api_key can be found [here](https://www.ibm.com/docs/en/concert?topic=started-generating-using-api-key).
 * `APP_NAME` - Name of your application
 * `APP_VERSION` - Version of your application
 * `COMPONENT_NAME` - Your application component name

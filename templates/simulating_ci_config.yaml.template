@@ -19,9 +19,8 @@ app:
   base_url: "${CONCERT_URL}"
   instance_id: "${INSTANCE_ID}"
   auth:
-    user:
-      username: "${USER_NAME}"
-      password: "${PASSWORD}"
+    token:
+      token: "${API_KEY}" 
   # TODO: certs
 input-data:
   build:

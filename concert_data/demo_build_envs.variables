@@ -30,8 +30,7 @@ export CONCERT_TOOLKIT_IMAGE="icr.io/cpopen/ibm-concert-toolkit:latest"
 export CONCERT_TOOLKIT_UTILS_REPO="git@github.com:IBM/concert/concert-utils.git"
 export CONCERT_URL="Your Concert URL"
 export INSTANCE_ID="0000-0000-0000-0000"
-export USER_NAME="concert_username"
-export PASSWORD="concert_user_password"
+export API_KEY="C_API_KEY your_api_key"
 
 ##
 # Application Variabbles
