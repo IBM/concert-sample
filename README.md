@@ -18,9 +18,9 @@ This example simulates a CI/CD pipeline and its integration with Concert. It emu
 
 1. Go to the `concert_data` directory and update the `demo_build_envs.variables` file accordingly by entering the proper values for your target environment. The variables in the `demo_build_envs.variables` file control the behavior of the scripts in this repo. The following are typical variables you may want to update:
 
-* `CONCERT_URL` - Your Concert URL (e.g., `https://`).
+* `CONCERT_URL` - Your Concert URL with the suffix `/ibm/concert` (e.g., `https://concert-concert-instance.apps.o2-160435.cp.fyre.ibm.com/ibm/concert`).
 * `INSTANCE_ID` - For non-SaaS deployments of Concert, use `0000-0000-0000-0000`
-* `API_KEY` - Your Concert API key value. Use either `C_API_KEY` or `ZenApiKey` depending on where Concert is hosted. See [Generating and using an API key](https://www.ibm.com/docs/en/concert?topic=started-generating-using-api-key) for instructions to generate an API key.
+* `API_KEY` - Your Concert API key value. Use either `C_API_KEY <apikey>` or `ZenApiKey <apikey>` depending on where Concert is hosted (where `<apikey>` is your API key value). See [Generating and using an API key](https://www.ibm.com/docs/en/concert?topic=started-generating-using-api-key) for instructions to generate an API key.
 * `APP_NAME` - Name of your application
 * `APP_VERSION` - Version of your application
 * `COMPONENT_NAME` - Your application component name
