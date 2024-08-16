@@ -17,9 +17,8 @@
 export OPTIONS="-it --rm -u $(id -u):$(id -g)"
 export CONTAINER_COMMAND="docker run"
 
-
 ##
-# template_scripts
+# Templates
 ##
 export TEMPLATE_PATH=../templates
 
@@ -27,10 +26,10 @@ export TEMPLATE_PATH=../templates
 # Common Variables
 ##
 export CONCERT_TOOLKIT_IMAGE="icr.io/cpopen/ibm-concert-toolkit:latest"
-export CONCERT_TOOLKIT_UTILS_REPO="git@github.com:IBM/concert/concert-utils.git"
+export CONCERT_TOOLKIT_UTILS_REPO="git@github.com:IBM/concert-utils.git"
 export CONCERT_URL="Your Concert URL"
 export INSTANCE_ID="0000-0000-0000-0000"
-export API_KEY="C_API_KEY your_api_key"
+export API_KEY="Your API key"
 
 ##
 # Application Variabbles
@@ -45,7 +44,7 @@ export ENVIRONMANET_NAME_3="production"
 export COMPONENT_NAME="Your application component name"
 
 export BUSINESS_NAME="Acme Inc."
-export BUSINESS_UNIT_NAME="Business Unit 1"
+export BUSINESS_UNIT_NAME="Business Unit name"
 export CONTACT_EMAIL="myemail@acme.com"
 export CONCAT_PHONE="(123) 123-1234"
 
